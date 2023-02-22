@@ -492,6 +492,9 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+footer a{
+    color: #afdef6;
+}
 
 
 /* responsive media query start */
