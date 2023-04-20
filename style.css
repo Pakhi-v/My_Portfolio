@@ -362,26 +362,6 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 80%;
-}
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .c::before{
-    width: 60%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
-}
-.skills-content .right .photoshop::before{
-    width: 80%;
-}
-
-
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
@@ -623,3 +603,39 @@ footer a{
         line-height: 38px;
     }
 }
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ec1f1f;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    border-top: none;
+  }
