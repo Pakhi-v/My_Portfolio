@@ -35,11 +35,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .work, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
+.work .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -258,21 +258,21 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.services, .teams{
+/* work section styling */
+.work, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+.work .title::before,
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+.work .title::after,
 .teams .title::after{
     background: #111;
     content: "Projects";
 }
-.services .serv-content .card{
+.work .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -281,24 +281,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.work .serv-content .card:hover{
     background: crimson;
 }
-.services .serv-content .card .box{
+.work .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.work .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.work .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.work .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.work .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -544,7 +544,7 @@ footer a{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .work .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -568,7 +568,7 @@ footer a{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .work .serv-content .card{
         width: 100%;
     }
 }
