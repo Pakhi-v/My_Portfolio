@@ -205,7 +205,7 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #ffffff;
+    border: 2px solid #c4c3c3;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -243,18 +243,18 @@ section .title::after{
 }
 .about .about-content .right button{
     display: inline-block;
-    background: #000000;
+    background: #bb4d47;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #45A29E;
+    border: 2px solid #dd7973;
     transition: all 0.3s ease;
 }
 .about .about-content .right button:hover{
-    color: #45A29E;
+    color: #000000;
     background: none;
 }
 
